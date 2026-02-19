@@ -2,7 +2,7 @@
 # just i am writing a simple hello world 
 echo "hello world"
 ## i am doing some test on variables 
-person1=vijay
-person2=ajay
-echo "$person1" ":hii ajay bro "
-echo "$person2" ":hii vijay bro"
+person1=$1
+person2=$2
+echo "$person1" ":hii $person2 bro "
+echo "$person2" ":hii $person1 bro"
