@@ -1,0 +1,9 @@
+#!/bin/bash
+### this script is used for a relative like as useradd and passwd
+
+echo " please mister/misses enter your sweet name:"
+read -s name
+echo "$name"
+echo "please enter your passwd:"
+read passwd
+echo "$passwd"
