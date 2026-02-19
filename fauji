@@ -1,1 +1,3 @@
 #!/bin/bash
+# just i am writing a simple hello world 
+echo "hello world"
